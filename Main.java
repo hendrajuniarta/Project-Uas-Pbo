@@ -103,7 +103,7 @@ public class Main {
         }
     
         if (newLaptop != null) {
-            // Memanggil metode setter untuk mengatur nilai atribut laptop yang sedang dibuat
+            //Memanggil metode setter untuk mengatur nilai atribut laptop yang sedang dibuat
             System.out.print("Masukkan merk laptop baru: ");
             newLaptop.setMerk(scan.next());
     
