@@ -1,0 +1,3 @@
+interface Laptopinfo {
+    void tampilkanInfo();
+}
