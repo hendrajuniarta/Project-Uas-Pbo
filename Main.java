@@ -77,6 +77,7 @@ public class Main {
             return null;
         }
     
+        
         System.out.print("Masukkan merk laptop: ");
         String merk = scan.next();
     
@@ -100,15 +101,6 @@ public class Main {
             newLaptop = new LaptopUltrabook(merk, harga, ketebalan, id);
         } else {
             System.out.println("Tipe laptop tidak valid.");
-        }
-    
-        if (newLaptop != null) {
-            //Memanggil metode setter untuk mengatur nilai atribut laptop yang sedang dibuat
-            System.out.print("Masukkan merk laptop baru: ");
-            newLaptop.setMerk(scan.next());
-    
-            System.out.print("Masukkan harga laptop baru: ");
-            newLaptop.setHarga(scan.nextInt());
         }
     
         return newLaptop;
